@@ -1,0 +1,26 @@
+.actors{
+  h1{
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+  }
+  .blocks{
+    border-radius: 10px;
+    .block{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      img{
+        border-radius: 10px;
+      }
+      h1{
+        font-weight: 100;
+        margin-top: 8px;
+        font-size: 15px;
+      }
+    }
+  }
+}
